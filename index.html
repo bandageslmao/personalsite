@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bandages' C00lsite</title>
+    <meta charset="UTF-8" />
+
+    <!-- Windows XP Theme (include only one theme at a time) -->
+    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+    <script src="Scripts/tabs.js"></script>
+    <style>
+      body {
+  background-image: url('https://archive.org/download/windows-xp-bliss-4k-lu-3840x2400/windows-xp-bliss-4k-lu-3840x2400.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+    </style>
+  </head>
+
+  <body>
+     <center>
+      <div class="window" style="width: 600px">
+        <div class="title-bar">
+          <div class="title-bar-text">Explorer</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <menu role="tablist">
+            <button aria-selected="true" aria-controls="about">About</button>
+            <button aria-controls="favorites">Favorites</button>
+            <button aria-controls="games">Gamesnstuff</button>
+          </menu>
+          <article role="tabpanel" id="about">
+            <h2>Hi :)</h2>
+            <p>I, Bandageslmao made this c00l site (iykyk)</p>
+          </article>
+          <article role="tabpanel" hidden id="favorites">
+            <p><strong>Music Artists I Like</strong> Weezer</p>
+            <p><strong>Languages</strong> GML, HTML, CSS, GDSCRIPT, and small amounts of LUA</p>
+            <p><strong>Games I Like</strong>Sonic The Hedgehog Franchise, Roblox, Risk Of Rain Franchise</p>
+            <p><strong>Editors</strong> VSC or just the built in editors</p>
+          </article>
+          <article role="tabpanel" hidden id="games">
+            <a href="Games/chickenragegame.html">chickenragegame</a>
+          </article>
+        </div>
+    </center>
+  </body>
+</html>
